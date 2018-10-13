@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Timeless-Bold';
-    src: url(font/timeless/Timeless-Bold.ttf);
+    src: url(../font/timeless/Timeless-Bold.ttf);
 }
 @font-face {
     font-family: 'Timeless';
-    src: url(font/timeless/Timeless.ttf);
+    src: url(../font/timeless/Timeless.ttf);
 }
 @font-face {
     font-family: 'Roboto';
-    src: url(font/roboto/Roboto-Thin.ttf);
+    src: url(../font/roboto/Roboto-Light.ttf);
 }
 .languageflag{
 	width: 30px;
@@ -54,17 +54,25 @@ body{
 	padding-right: 7%;
 	text-align: justify;
 	font-size: 110%;
+	line-height: 30px;
+	font-family: 'Roboto';
+}
+p{
+	line-height: 40px;
 }
 .section h2{
 	font-family: 'Timeless-Bold';
 	margin-bottom: 3%;
 	font-size: 200%;
 }
+.section li{
+	margin-bottom: 10px;
+}
 #languageOptions a{
 	cursor: pointer;
 }
 #me{
-	background-color: #1A4C4A;
+	background-color: #20487F;
 	color:white;
 }
 #photoSergio{
@@ -72,20 +80,23 @@ body{
 	margin-left: 25%;
 }
 #study{
-	background-color: #2C7F7C;
+	background-color: #40679E;
 	color: white;
 }
 .photo{
 	width: 100%;
 }
 #knowledge{
-	background-color: #359590;
+	background-color: #5385CC;
+	color: black;
 }
-#projects{
-	background-color: #46CCC6;
+#experiences{
+	background-color: #67A7FF;
+	color: black;
 }
 #contact{
-	background-color: #57FFF7;
+	background-color: #B4D3FF;
+	color: black;
 }
 #contactOptions{
 	text-align: center;
