@@ -64,9 +64,6 @@ p{
 	margin-bottom: 3%;
 	font-size: 200%;
 }
-.section li{
-	margin-bottom: 15px;
-}
 #languageOptions a{
 	cursor: pointer;
 }
@@ -88,6 +85,9 @@ p{
 #knowledge{
 	background-color: #3d59bf;
 	color:white;
+}
+#knowledge li, #study li{
+	margin-bottom: 20px;
 }
 #experiences{
 	background-color: #4e71f2;
@@ -123,6 +123,11 @@ p{
 ul{
 	text-align: left;
 	padding-left: 15px;
+}
+.experiencePoint{
+	margin-bottom: 2px;
+	margin-top: 20px;
+	font-weight: 600;
 }
 
 @media (max-width: 760px) {
