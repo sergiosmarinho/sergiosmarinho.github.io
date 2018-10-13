@@ -72,7 +72,7 @@ p{
 	cursor: pointer;
 }
 #me{
-	background-color: #001252;
+	background-color: #213066;
 	color:white;
 }
 #photoSergio{
@@ -80,22 +80,22 @@ p{
 	margin-left: 25%;
 }
 #study{
-	background-color: #243570;
+	background-color: #2d428c;
 	color: white;
 }
 .photo{
 	width: 100%;
 }
 #knowledge{
-	background-color: #334A9E;
+	background-color: #354da6;
 	color:white;
 }
 #experiences{
-	background-color: #4462D1;
+	background-color: #3d59bf;
 	color:white;
 }
 #contact{
-	background-color: #93A0D1;
+	background-color: #bfcdff;
 	color: black;
 }
 #contactOptions{
