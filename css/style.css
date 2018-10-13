@@ -127,6 +127,7 @@ ul{
 @media (max-width: 760px) {
 	.section h2{
 		padding-top: 12vw;
+		text-align: center;
 	}
 	#linkedin, #lattes, #facebook{
 		width: 60px;
