@@ -22,23 +22,22 @@ nav{
 	display: none;
 	position: fixed;
 	bottom: 20px;
-	right: 30px;
+	right: 20px;
 	z-index: 99;
 	font-size: 18px;
-	background-color: #CC3300;
+	background-color: rgba(0, 0, 0, 0.3);
 	color: white;
 	cursor: pointer;
-	padding: 15px;
+	padding: 10px;
 	border-radius: 4px;
 }
 
 #Buttontop img{
 	width: 30px;
-	height: 30px;
 }
 
 #Buttontop:hover {
-	background-color: #d65b32;
+	background-color: #2ecc71;
 }
 body{
 	overflow-y: scroll;
@@ -72,7 +71,7 @@ p{
 	cursor: pointer;
 }
 #me{
-	background-color: #213066;
+	background-color: #2d428c;
 	color:white;
 }
 #photoSergio{
@@ -80,18 +79,18 @@ p{
 	margin-left: 25%;
 }
 #study{
-	background-color: #2d428c;
+	background-color: #354da6;
 	color: white;
 }
 .photo{
 	width: 100%;
 }
 #knowledge{
-	background-color: #354da6;
+	background-color: #3d59bf;
 	color:white;
 }
 #experiences{
-	background-color: #3d59bf;
+	background-color: #4e71f2;
 	color:white;
 }
 #contact{
@@ -116,4 +115,26 @@ p{
 }
 #email img{
 	height: 30px;
+}
+#email a{
+	color: black;
+	text-decoration: none;
+}
+ul{
+	text-align: left;
+}
+
+@media (max-width: 760px) {
+	.section h2{
+		padding-top: 12vw;
+	}
+	#linkedin, #lattes, #facebook{
+		width: 60px;
+	}
+	#email{
+		font-size: 14px;
+	}
+	#Buttontop{
+		padding: 3px;
+	}
 }
