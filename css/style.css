@@ -8,7 +8,7 @@
 }
 @font-face {
     font-family: 'Roboto';
-    src: url(../font/roboto/Roboto-Light.ttf);
+    src: url(../font/roboto/Roboto-Thin.ttf);
 }
 .languageflag{
 	width: 30px;
@@ -52,7 +52,7 @@ body{
 	padding-left: 7%;
 	padding-right: 7%;
 	text-align: justify;
-	font-size: 110%;
+	font-size: 24px;
 	line-height: 30px;
 	font-family: 'Roboto';
 }
@@ -65,7 +65,7 @@ p{
 	font-size: 200%;
 }
 .section li{
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 #languageOptions a{
 	cursor: pointer;
@@ -137,5 +137,12 @@ ul{
 	}
 	#Buttontop{
 		padding: 5px;
+	}
+	.section{
+		font-size: 18px;
+		line-height: 20px;
+	}
+	p{
+		line-height: 25px;
 	}
 }
