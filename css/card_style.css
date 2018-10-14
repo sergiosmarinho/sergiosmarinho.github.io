@@ -5,6 +5,21 @@
 }
 .card-title{
 	font-weight: 600;
-	font-size: 17px;
+	font-size: 16px;
 	margin-bottom: 0px;
+	padding: 0px;
+}
+.card-body{
+	padding: 12px;
+}
+
+@media (max-width: 1000px) {
+	.card-title{
+		font-weight: 600;
+		font-size: 11px;
+		margin-bottom: 0px;
+	}
+	.card{
+		min-height: 120px;
+	}
 }
