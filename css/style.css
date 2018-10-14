@@ -68,33 +68,33 @@ p{
 	cursor: pointer;
 }
 #me{
-	background-color: #2d428c;
-	color:white;
+	background-color: #bfffff;
+	color:black;
 }
 #photoSergio{
 	width: 50%;
 	margin-left: 25%;
 }
 #study{
-	background-color: #354da6;
-	color: white;
+	background-color: #b6d4f2;
+	color: black;
 }
 .photo{
 	width: 100%;
 }
 #knowledge{
-	background-color: #3d59bf;
-	color:white;
+	background-color: #aaf2dc;
+	color:black;
 }
 #knowledge li, #study li{
 	margin-bottom: 20px;
 }
 #experiences{
-	background-color: #4e71f2;
-	color:white;
+	background-color: #f2e0c2;
+	color:black;
 }
 #contact{
-	background-color: #bfcdff;
+	background-color: #dfe6e9;
 	color: black;
 }
 #contactOptions{
@@ -123,11 +123,6 @@ p{
 ul{
 	text-align: left;
 	padding-left: 15px;
-}
-.experiencePoint{
-	margin-bottom: 2px;
-	margin-top: 20px;
-	font-weight: 600;
 }
 
 @media (max-width: 760px) {
