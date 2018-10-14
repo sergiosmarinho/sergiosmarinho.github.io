@@ -1,0 +1,51 @@
+.wrapper {
+	border:solid;
+	border-width:1px;
+	border-color: #949494;
+	background-color: #444444;
+	color: white;
+	display: flex;
+	flex-flow: row nowrap;
+	width: 100%;
+	margin-top: 15px;
+}
+.yearStudy {
+	align-self: center;
+	background-color: #444444;
+	font-size: 32px;
+	padding: 20px;
+	font-weight: 1000;
+}
+.contentStudy {
+	background-color: #DDFAF1;
+	color: black;
+	flex: 12 1 auto;
+	padding: 20px;
+}
+.contentStudy h4{
+	font-weight: 600;
+	font-size: 20px;
+	text-align: left;
+}
+.contentStudy p{
+	font-size: 14px;
+	margin-bottom: 0px;
+	line-height: 14px;
+	text-align: left;
+}
+
+@media (max-width: 760px) {
+	.yearStudy {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.contentStudy h4{
+		font-size: 14px;
+	}
+	.contentStudy p{
+		font-size: 12px;
+	}
+	.wrapper{
+		min-height: 155px;
+	}
+}

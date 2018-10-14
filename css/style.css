@@ -82,6 +82,9 @@ p{
 	background-color: #b6d4f2;
 	color: black;
 }
+#imageStudy img{
+	width: 100%;
+}
 .photo{
 	width: 100%;
 }
