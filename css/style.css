@@ -150,3 +150,9 @@ ul{
 		line-height: 25px;
 	}
 }
+
+@media (min-width: 755px) and (max-width: 870px) {
+	.nav-link{
+		font-size: 13px;
+	}
+}
