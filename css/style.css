@@ -18,6 +18,9 @@ nav{
 	background-color: black;
 	font-family: 'Timeless';
 }
+.navbar-brand{
+	font-size: 20px;
+}
 #Buttontop{
 	display: none;
 	position: fixed;
@@ -137,7 +140,7 @@ ul{
 		font-size: 14px;
 	}
 	#Buttontop{
-		padding: 5px;
+		padding: 7px;
 	}
 	.section{
 		font-size: 18px;

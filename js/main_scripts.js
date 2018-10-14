@@ -7,9 +7,16 @@ function scrollFunction() {
     }
 }
 
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+function scrollToFunction(sectionToScroll, close) {
+    if($(window).width() < 780 && close==1){
+        $('.navbar-toggler').click();
+    }
+    pos = $(sectionToScroll).position().top;
+    window.scroll({
+      top: pos, 
+      left: 0, 
+      behavior: 'smooth' 
+    });
 }
 
 function isInScreen(elementName) {

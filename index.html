@@ -14,7 +14,7 @@
 		<script src="js/main_scripts.js"></script>
 	</head>
 	<body>
-		<button onclick="topFunction()" class="btn btn-default btn-circle" id="Buttontop"><img src="img/arrow_up.png"/></button>
+		<button onclick="scrollToFunction('#me',0)" class="btn btn-default btn-circle" id="Buttontop"><img src="img/arrow_up.png"/></button>
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top">
 			<a class="navbar-brand" href="#me" id="title_sergio">&lt;/&gt; Sergio Marinho</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,19 +23,19 @@
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="#me">Quem sou</a>
+						<a class="nav-link" onclick="scrollToFunction('#me',1)">Quem sou</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#study">Formação</a>
+						<a class="nav-link" onclick="scrollToFunction('#study',1)">Formação</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#knowledge">Conhecimentos</a>
+						<a class="nav-link" onclick="scrollToFunction('#knowledge',1)">Conhecimentos</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#experiences">Experiências</a>
+						<a class="nav-link" onclick="scrollToFunction('#experiences',1)">Experiências</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#contact">Contato</a>
+						<a class="nav-link" onclick="scrollToFunction('#contact',1)">Contato</a>
 					</li>
 				</ul>
 				<div class="form-inline mt-2 mt-md-0">
