@@ -21,6 +21,9 @@ nav{
 .navbar-brand{
 	font-size: 20px;
 }
+.nav-link:hover{
+	cursor: pointer;
+}
 #Buttontop{
 	display: none;
 	position: fixed;
@@ -71,22 +74,26 @@ p{
 	cursor: pointer;
 }
 #me{
-	background-color: #bfffff;
+	background-color: #dbfcfc;
 	color:black;
 }
-#photoSergio{
-	width: 50%;
-	margin-left: 25%;
+#textMe{
+	width: 70%;
+	display: table-cell;
+	vertical-align: middle;
+}
+#imageMe{
+	width: 90%;
+	margin-left:10%;
+	display: table-cell;
+	vertical-align: middle;
+}
+#aboutMe{
+	display: table;
 }
 #study{
 	background-color: #b6d4f2;
 	color: black;
-}
-#imageStudy img{
-	width: 100%;
-}
-.photo{
-	width: 100%;
 }
 #knowledge{
 	background-color: #aaf2dc;
@@ -151,6 +158,21 @@ ul{
 	}
 	p{
 		line-height: 25px;
+	}
+}
+
+@media (max-width: 920px) {
+	#textMe{
+		width: 100%;
+		display: block;
+	}
+	#imageMe{
+		width: 40%;
+		margin-left:30%;
+		display: block;
+	}
+	#aboutMe{
+		display: block;
 	}
 }
 
