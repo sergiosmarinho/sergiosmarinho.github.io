@@ -10,7 +10,7 @@
     font-family: 'Roboto';
     src: url(../font/roboto/Roboto-Light.ttf);
 }
-.languageflag{
+.language-flag{
 	width: 30px;
 	margin-right: 5px;
 }
@@ -24,7 +24,7 @@ nav{
 .nav-link:hover{
 	cursor: pointer;
 }
-#Buttontop{
+#button-top{
 	display: none;
 	position: fixed;
 	bottom: 20px;
@@ -38,18 +38,18 @@ nav{
 	border-radius: 4px;
 }
 
-#Buttontop img{
+#button-top img{
 	width: 30px;
 }
 
-#Buttontop:hover {
+#button-top:hover {
 	background-color: #2ecc71;
 }
 body{
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
-#title_sergio{
+#title-sergio{
 	font-family: 'Timeless-Bold';
 }
 .section{
@@ -70,25 +70,25 @@ p{
 	margin-bottom: 3%;
 	font-size: 200%;
 }
-#languageOptions a{
+#language-options a{
 	cursor: pointer;
 }
 #me{
 	background-color: #dbfcfc;
 	color:black;
 }
-#textMe{
+#text-me{
 	width: 70%;
 	display: table-cell;
 	vertical-align: middle;
 }
-#imageMe{
+#image-me{
 	width: 90%;
 	margin-left:10%;
 	display: table-cell;
 	vertical-align: middle;
 }
-#aboutMe{
+#about-me{
 	display: table;
 }
 #study{
@@ -110,7 +110,7 @@ p{
 	background-color: #dfe6e9;
 	color: black;
 }
-#contactOptions{
+#contact-options{
 	text-align: center;
 }
 #linkedin, #lattes{
@@ -118,7 +118,7 @@ p{
 	margin-right: 2%;
 	margin-top: 1%;
 }
-#facebook{
+#github{
 	width: 80px;
 	margin-top: 1%;
 }
@@ -143,13 +143,13 @@ ul{
 		padding-top: 12vw;
 		text-align: center;
 	}
-	#linkedin, #lattes, #facebook{
+	#linkedin, #lattes, #github{
 		width: 60px;
 	}
 	#email{
 		font-size: 14px;
 	}
-	#Buttontop{
+	#button-top{
 		padding: 7px;
 	}
 	.section{
@@ -162,16 +162,16 @@ ul{
 }
 
 @media (max-width: 920px) {
-	#textMe{
+	#text-me{
 		width: 100%;
 		display: block;
 	}
-	#imageMe{
+	#image-me{
 		width: 40%;
 		margin-left:30%;
 		display: block;
 	}
-	#aboutMe{
+	#about-me{
 		display: block;
 	}
 }

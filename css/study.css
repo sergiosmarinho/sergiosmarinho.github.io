@@ -17,7 +17,7 @@
 	font-weight: 1000;
 }
 .contentStudy {
-	background-color: #DDFAF1;
+	background-color: white;
 	color: black;
 	flex: 12 1 auto;
 	padding: 20px;
@@ -45,7 +45,4 @@
 	.contentStudy p{
 		font-size: 12px;
 	}
-	/*.wrapper{
-		min-height: 155px;
-	}*/
 }
