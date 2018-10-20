@@ -9,25 +9,25 @@
 	width: 100%;
 	margin-top: 15px;
 }
-.yearStudy {
+.year-study {
 	align-self: center;
 	background-color: #444444;
 	font-size: 32px;
 	padding: 20px;
 	font-weight: 1000;
 }
-.contentStudy {
+.content-study {
 	background-color: white;
 	color: black;
 	flex: 12 1 auto;
 	padding: 20px;
 }
-.contentStudy h4{
+.content-study h4{
 	font-weight: 600;
 	font-size: 20px;
 	text-align: left;
 }
-.contentStudy p{
+.content-study p{
 	font-size: 14px;
 	margin-bottom: 0px;
 	line-height: 14px;
@@ -35,14 +35,14 @@
 }
 
 @media (max-width: 760px) {
-	.yearStudy {
+	.year-study {
 		font-size: 20px;
 		padding: 10px;
 	}
-	.contentStudy h4{
+	.content-study h4{
 		font-size: 14px;
 	}
-	.contentStudy p{
+	.content-study p{
 		font-size: 12px;
 	}
 }
